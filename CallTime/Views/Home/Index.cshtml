@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/Content/Home/Index.css" rel="stylesheet" type="text/css" />
+<script src="~/Scripts/Home/Index.js"></script>
+<h2>Index</h2>
+
+
+<h4>Let's Make Calls</h4>
+<button class="button-md button-hover-green">@Html.ActionLink("Enter", "CallTime", "CallTime", new { @class = "action-link" })</button>

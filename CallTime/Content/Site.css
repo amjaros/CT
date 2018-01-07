@@ -1,0 +1,58 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* BS COLORS 
+    BLUE: #337ab7
+    BLUE-HOVER: #286090
+    GREEN: #dff0d8
+    GREEN-HOVER: #c1e2b3
+    RED: #f2dede
+    RED-HOVER: #e4b9b9
+    INFO: #d9edf7
+    INFO-HOVER: #afd9ee
+*/
+
+.action-link {
+    text-decoration: none;
+    color: inherit;
+}
+/* BUTTONS */
+.button-md {
+    width: 200px;
+    height: 25px;
+    text-decoration: none;
+}
+    .button-md:hover {
+        color: #fff;
+    }
+    .button-md a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.button-hover-blue:hover {
+    background-color: #0ca0da;
+}
+.button-hover-red {
+    background-color: red;
+    color: #fff;
+}
+.button-hover-green:hover {
+    background-color: #3c763d;
+    color: #fff;
+}
